@@ -33,12 +33,14 @@
       href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One"
     />
   </head>
-  <body>
+  <body class="loader">
     <nav class="nav navbar-default techfont custom-navbar">
-      <div>
+      <div class="container">
         <ul class="nav navbar-nav">
           <li>
-            <a class="navbar-brand bigbrand" href="{% url 'post_list' %}"></a>
+            <a class="navbar-brand bigbrand" href="{% url 'post_list' %}"
+              >My blog</a
+            >
           </li>
           <li><a href="{% url 'about' %}">About</a></li>
           <li><a href="https://www.github.com">Github</a></li>
@@ -62,6 +64,7 @@
       </div>
     </nav>
 
+    {# The actual blog posts #}
     <div class="content container">
       <div class="row">
         <div class="col-md-8">
@@ -71,5 +74,7 @@
         </div>
       </div>
     </div>
+
+    {# SCRIPTS #}
   </body>
 </html>
