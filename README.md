@@ -1,6 +1,6 @@
 # Tech Blog Demo
 
-![Image](https://drive.google.com/uc?export=view&id=1lFoGLNbi0CSLTOuHEkJPqgF8aLZwiPDN)
+![Image](./tech-blog-demo_README.png)
 
 > My first complete web application using Django and Postgres.
 
